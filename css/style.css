@@ -1,0 +1,535 @@
+@font-face {
+  font-family: 'basier_square_monoregular';
+  src: url('basiersquaremono-regular-webfont.eot');
+  src: url('basiersquaremono-regular-webfont.eot?#iefix') format('embedded-opentype'), url('basiersquaremono-regular-webfont.woff2') format('woff2'), url('basiersquaremono-regular-webfont.woff') format('woff'), url('basiersquaremono-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basier_circleregular';
+  src: url('basiercircle-regular-webfont.eot');
+  src: url('basiercircle-regular-webfont.eot?#iefix') format('embedded-opentype'), url('basiercircle-regular-webfont.woff2') format('woff2'), url('basiercircle-regular-webfont.woff') format('woff'), url('basiercircle-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #F9F8F6;
+}
+
+.header001 {
+  position: fixed;
+  left: 35px;
+  top: 35px;
+  z-index: 500;
+}
+
+.headerdot {
+  display: none;
+  height: 6.5px;
+  position: fixed;
+  width: 6.5px;
+  top: 38.20px;
+  left: 38.201px;
+  border-radius: 50%;
+}
+
+.header001:hover>.headerdot {
+  display: block;
+  height: 6.5px;
+  position: fixed;
+  width: 6.5px;
+  top: 38.20px;
+  left: 38.201px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+.header002 {
+  position: fixed;
+  display: inline-block;
+  right: 35px;
+  font-family: 'basier_square_monoregular', normal;
+  word-spacing: 15px;
+  font-size: 13px;
+  top: 20px;
+  z-index: 500;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover, a.active {
+  color: #9090AD;
+}
+
+.heading {
+  position: fixed;
+  left: 180px;
+  font-family: 'basier_square_monoregular', normal;
+  font-size: 32px;
+  top: 225px;
+  z-index: 500;
+}
+
+.projectlist {
+  position: absolute;
+  top: 320px;
+  font-family: 'basier_square_monoregular', normal;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 320px;
+  justify-content: space-between;
+}
+
+.row1 {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  font-size: 21px;
+}
+
+.row1>div {
+  flex: 1 1 auto;
+  margin: 25px;
+  /* and that, will result in a 10px gap */
+  margin-left: 250px;
+}
+
+.row2 {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  font-size: 21px;
+}
+
+.row2>div {
+  flex: 1 10 auto;
+  margin: 25px;
+  /* and that, will result in a 10px gap */
+  margin-left: 250px;
+}
+
+.row3 {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  font-size: 21px;
+}
+
+.row3>div {
+  flex: 1 10 auto;
+  margin: 25px;
+  /* and that, will result in a 10px gap */
+  margin-left: 250px;
+}
+
+.column1 {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  font-family: 'basier_circleregular';
+  opacity: .3;
+}
+
+hr {
+  display: inline-block;
+  height: 1px;
+  width: 32px;
+  height: 0px;
+  border-top: 0px;
+  opacity: .5;
+}
+
+div.projectlinks {
+  position: relative;
+}
+
+div.projectlinks:hover {
+  cursor: hand;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  left: 20px;
+}
+
+div.projectlinks:hover>.column1 {
+  transition: all 0.2s ease;
+  opacity: 1;
+}
+
+a.divLink {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  z-index: 10;
+  background-color: white;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+@media only screen and (max-width: 1000px) {
+  .heading {
+    position: fixed;
+    text-align: center;
+    left: 75px;
+    right: 75px;
+    top: 225;
+  }
+  .row1 {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    font-size: 21px;
+  }
+  .row1>div {
+    flex: 1 1 auto;
+    margin: 25px;
+    /* and that, will result in a 10px gap */
+    margin-left: 100px;
+  }
+  .row2 {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    font-size: 21px;
+  }
+  .row2>div {
+    flex: 1 10 auto;
+    margin: 25px;
+    /* and that, will result in a 10px gap */
+    margin-left: 100px;
+  }
+  .row3 {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    font-size: 21px;
+  }
+  .row3>div {
+    flex: 1 10 auto;
+    margin: 25px;
+    /* and that, will result in a 10px gap */
+    margin-left: 100px;
+  }
+}
+
+@import "compass/css3";
+body {
+  background: #F9F8F6;
+  font-family: 'basier_circleregular';
+}
+
+div.projectlinks:hover {
+  color: black;
+}
+
+@keyframes noise-anim {
+  0% {
+    clip: rect(1px, 9999px, 32px, 0);
+  }
+  5% {
+    clip: rect(61px, 9999px, 32px, 0);
+  }
+  10% {
+    clip: rect(26px, 9999px, 57px, 0);
+  }
+  15% {
+    clip: rect(93px, 9999px, 67px, 0);
+  }
+  20% {
+    clip: rect(72px, 9999px, 38px, 0);
+  }
+  25% {
+    clip: rect(94px, 9999px, 41px, 0);
+  }
+  30% {
+    clip: rect(33px, 9999px, 17px, 0);
+  }
+  35% {
+    clip: rect(56px, 9999px, 89px, 0);
+  }
+  40% {
+    clip: rect(78px, 9999px, 54px, 0);
+  }
+  45% {
+    clip: rect(31px, 9999px, 2px, 0);
+  }
+  50% {
+    clip: rect(44px, 9999px, 96px, 0);
+  }
+  55% {
+    clip: rect(97px, 9999px, 43px, 0);
+  }
+  60% {
+    clip: rect(9px, 9999px, 73px, 0);
+  }
+  65% {
+    clip: rect(38px, 9999px, 10px, 0);
+  }
+  70% {
+    clip: rect(91px, 9999px, 84px, 0);
+  }
+  75% {
+    clip: rect(96px, 9999px, 31px, 0);
+  }
+  80% {
+    clip: rect(26px, 9999px, 57px, 0);
+  }
+  85% {
+    clip: rect(27px, 9999px, 29px, 0);
+  }
+  90% {
+    clip: rect(99px, 9999px, 94px, 0);
+  }
+  95% {
+    clip: rect(11px, 9999px, 45px, 0);
+  }
+  100% {
+    clip: rect(38px, 9999px, 51px, 0);
+  }
+}
+
+div.projectlinks:hover:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 20px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: black;
+  background: #F9F8F6;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim .5s infinite linear alternate-reverse;
+}
+
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(18px, 9999px, 66px, 0);
+  }
+  5% {
+    clip: rect(91px, 9999px, 60px, 0);
+  }
+  10% {
+    clip: rect(40px, 9999px, 82px, 0);
+  }
+  15% {
+    clip: rect(47px, 9999px, 79px, 0);
+  }
+  20% {
+    clip: rect(34px, 9999px, 31px, 0);
+  }
+  25% {
+    clip: rect(26px, 9999px, 81px, 0);
+  }
+  30% {
+    clip: rect(53px, 9999px, 56px, 0);
+  }
+  35% {
+    clip: rect(29px, 9999px, 99px, 0);
+  }
+  40% {
+    clip: rect(72px, 9999px, 13px, 0);
+  }
+  45% {
+    clip: rect(93px, 9999px, 10px, 0);
+  }
+  50% {
+    clip: rect(17px, 9999px, 19px, 0);
+  }
+  55% {
+    clip: rect(63px, 9999px, 27px, 0);
+  }
+  60% {
+    clip: rect(65px, 9999px, 17px, 0);
+  }
+  65% {
+    clip: rect(18px, 9999px, 66px, 0);
+  }
+  70% {
+    clip: rect(47px, 9999px, 86px, 0);
+  }
+  75% {
+    clip: rect(95px, 9999px, 5px, 0);
+  }
+  80% {
+    clip: rect(45px, 9999px, 42px, 0);
+  }
+  85% {
+    clip: rect(58px, 9999px, 73px, 0);
+  }
+  90% {
+    clip: rect(1px, 9999px, 55px, 0);
+  }
+  95% {
+    clip: rect(22px, 9999px, 96px, 0);
+  }
+  100% {
+    clip: rect(96px, 9999px, 85px, 0);
+  }
+}
+
+div.projectlinks:hover:before {
+  content: attr(data-text);
+  position: absolute;
+  left: -5px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: rgb(20, 20, 20);
+  background: #F9F8F6;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 2s infinite linear alternate-reverse;
+}
+
+.content {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  z-index: 1;
+}
+
+.fullsize {
+  max-width: 100%;
+  max-height: 100%;
+  z-index: 0;
+  opacity: 1;
+}
+
+.content-info {
+  position: fixed;
+  display: inline-block;
+  right: 180px;
+  z-index: 2;
+}
+
+.ai-icon {
+  position: relative;
+  top: 240px;
+}
+
+.cute-heading {
+  position: relative;
+  color: rgb(0, 0, 0) !important;
+  top: 225px;
+  font-size: 13px;
+  font-family: 'basier_circleregular';
+  opacity: .3;
+}
+
+.cute-body {
+  position: relative;
+  color: rgb(0, 0, 0) !important;
+  top: 225px;
+  font-size: 13px;
+  font-family: 'basier_circleregular';
+}
+
+.content {
+  margin-top: 0px;
+  text-align: justify;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.quote-block {
+  position: absolute;
+  display: flex;
+  max-width: 700px;
+  left: 180px;
+  padding-right: 180px;
+  top: 365px;
+  color: rgb(0, 0, 0);
+  font-family: 'Arial', Italic;
+  font-size: 15px;
+  padding-bottom: 500px;
+  text-align: justify;
+  overflow: hidden;
+}
+
+.linkarrows {
+  fill: rgb(0, 0, 0);
+  width: 8px;
+  margin-left: 5px;
+}
+
+.lavender {
+  position: relative;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin-left: 200px;
+  padding-right: 500px;
+  top: 170px;
+}
+
+.lavender:hover {
+  opacity: .7;
+  transition: all 0.2s ease;
+  cursor: hand;
+  cursor: pointer;
+}
+
