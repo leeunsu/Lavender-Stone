@@ -186,6 +186,13 @@ a.divLink {
 }
 
 @media only screen and (max-width: 1000px) {
+  .header001 {
+    position: fixed;
+    left: 35px;
+    top: 35px;
+    z-index: 500;
+    width: 100px;
+  }
   .heading {
     position: fixed;
     text-align: center;
@@ -514,22 +521,3 @@ div.projectlinks:hover:before {
   width: 8px;
   margin-left: 5px;
 }
-
-.lavender {
-  position: relative;
-  margin: 0px;
-  display: flex;
-  flex-direction: column;
-  height: 300px;
-  margin-left: 200px;
-  padding-right: 500px;
-  top: 170px;
-}
-
-.lavender:hover {
-  opacity: .7;
-  transition: all 0.2s ease;
-  cursor: hand;
-  cursor: pointer;
-}
-
