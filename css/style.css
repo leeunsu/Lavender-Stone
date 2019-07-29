@@ -20,7 +20,7 @@ body {
 
 .header001 {
   position: fixed;
-  left: 135px;
+  left: 35px;
   top: 35px;
   z-index: 500;
 }
