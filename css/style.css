@@ -480,7 +480,7 @@ div.projectlinks:hover:before {
     right: 35px;
     font-family: 'basier_square_monoregular', normal;
     word-spacing: 15px;
-    font-size: .8em;
+    font-size: 12vw;
     top: 16px;
     z-index: 500;
   }
