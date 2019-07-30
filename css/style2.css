@@ -24,6 +24,7 @@ body {
     top: 35px;
     fill: black;
     z-index: 100;
+    width: 45px;
 }
 
 .headerdot {
@@ -245,6 +246,25 @@ hr {
 
 
 @media only screen and (max-width: 1000px) {
+    .header001 {
+        position: fixed;
+        left: 40px;
+        top: 40px;
+        fill: black;
+        z-index: 100;
+        width: 90px;
+    }
+
+.header002 {
+    position: fixed;
+    display: inline-block;
+    right: 35px;
+    font-family: 'basier_square_monoregular', normal;
+    word-spacing: 15px;
+    font-size: 20px;
+    top: 2.5%;
+    z-index: 1000;
+}
     .heading {
         position: fixed;
         text-align: center;
@@ -291,7 +311,7 @@ hr {
         display: inline;
         max-width: 100%;
         left: 0px;
-        top: 0px;
+        top: 90%;
         font-family: 'Arial', Italic;
         font-size: 15px;
         padding-bottom: 50px;
