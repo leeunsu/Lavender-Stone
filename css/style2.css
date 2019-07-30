@@ -244,7 +244,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 768px) {
     .header001 {
         position: fixed;
         left: 40px;
@@ -256,13 +256,12 @@ hr {
     .header002 {
         position: fixed;
         display: inline-block;
-        right: -280px;
         font-family: 'basier_square_monoregular', normal;
-        word-spacing: 15px;
+        word-spacing: 13px;
         font-size: 13px;
-        top: 400px;
+        top: 20px;
         z-index: 1000;
-        transform: rotate(90deg)
+
     }
     .heading {
         position: fixed;

@@ -474,6 +474,16 @@ div.projectlinks:hover:before {
     z-index: 500;
     width: 100px;
   }
+  .header002 {
+    position: fixed;
+    display: inline-block;
+    right: 35px;
+    font-family: 'basier_square_monoregular', normal;
+    word-spacing: 15px;
+    font-size: 12px;
+    top: 16px;
+    z-index: 500;
+  }
   .heading {
     position: fixed;
     text-align: center;
