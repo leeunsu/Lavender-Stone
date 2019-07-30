@@ -244,7 +244,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .header001 {
         position: fixed;
         left: 40px;
@@ -258,7 +258,7 @@ hr {
         display: inline-block;
         font-family: 'basier_square_monoregular', normal;
         word-spacing: 13px;
-        font-size: 13px;
+        font-size: 13em;
         top: 20px;
         z-index: 1000;
 
