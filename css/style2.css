@@ -244,14 +244,14 @@ hr {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 550px) {
     .header001 {
         position: fixed;
         left: 40px;
         top: 40px;
         fill: black;
         z-index: 100;
-        width: 180px;
+        width: 45px;
     }
     .header002 {
         position: fixed;
@@ -259,7 +259,7 @@ hr {
         right: -280px;
         font-family: 'basier_square_monoregular', normal;
         word-spacing: 15px;
-        font-size: 40px;
+        font-size: 13px;
         top: 400px;
         z-index: 1000;
         transform: rotate(90deg)
@@ -270,6 +270,7 @@ hr {
         left: 75px;
         right: 75px;
         top: 225;
+        width: 30px;
     }
     .menu-container {
         position: absolute;
@@ -310,7 +311,7 @@ hr {
         display: inline;
         max-width: 100%;
         left: 0px;
-        top: 90%;
+        top: 50%;
         font-family: 'Arial', Italic;
         font-size: 15px;
         padding-bottom: 50px;
