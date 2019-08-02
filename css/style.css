@@ -499,14 +499,13 @@ div.projectlinks:hover:before {
     visibility: visible;
     position: fixed;
     display: inline-block;
-    left: -163px;
+    right: 15px;
     font-family: 'basier_square_monoregular', normal;
     word-spacing: 15px;
-    font-size: 14px;
-    top: auto;
+    font-size: 12px;
+    top: -3px;
     bottom: 210px;
     z-index: 500;
-    transform: rotate(-90deg);
   }
   .heading {
     position: fixed;
