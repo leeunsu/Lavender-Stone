@@ -24,7 +24,6 @@ body {
     top: 35px;
     fill: black;
     z-index: 100;
-    width: 45px;
 }
 
 .headerdot {
@@ -251,8 +250,8 @@ hr {
         top: 35px;
         z-index: 500;
         width: 100px;
-      }
-      .header002 {
+    }
+    .header002 {
         position: fixed;
         display: inline-block;
         right: -135px;
@@ -263,14 +262,14 @@ hr {
         bottom: 210px;
         z-index: 500;
         transform: rotate(90deg)
-      }
-      .heading {
+    }
+    .heading {
         position: fixed;
         text-align: center;
         left: 75px;
         right: 75px;
         top: 225;
-      }
+    }
     .menu-container {
         position: absolute;
         left: 0px;
