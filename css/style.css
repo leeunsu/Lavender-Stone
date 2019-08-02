@@ -487,8 +487,8 @@ div.projectlinks:hover:before {
   .mobile-header001 {
     visibility: visible;
     position: fixed;
-    left: 35px;
-    top: 35px;
+    left: 15px;
+    top: 15px;
     z-index: 500;
     width: 100px;
   }
@@ -499,7 +499,7 @@ div.projectlinks:hover:before {
     visibility: visible;
     position: fixed;
     display: inline-block;
-    left: -140px;
+    left: -163px;
     font-family: 'basier_square_monoregular', normal;
     word-spacing: 15px;
     font-size: 14px;
