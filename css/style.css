@@ -584,26 +584,26 @@ div.projectlinks:hover:before {
     display: flex;
     flex-direction: column;
     height: 300px;
-    font-size: 21px;
+    font-size: 16px;
     margin-left: 0px;
   }
   .row1>div {
     flex: 1 1 auto;
-    margin: 25px;
+    margin: 15px;
     /* and that, will result in a 10px gap */
     margin-left: 100px;
   }
   .row2 {
     margin: 0px;
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     height: 300px;
-    font-size: 21px;
+    font-size: 16px;
   }
   .row2>div {
     flex: 1 10 auto;
-    margin: 25px;
+    margin: 15px;
     /* and that, will result in a 10px gap */
     margin-left: 100px;
   }
@@ -612,13 +612,21 @@ div.projectlinks:hover:before {
     display: flex;
     flex-direction: column;
     height: 300px;
-    font-size: 21px;
+    font-size: 16px;
   }
   .row3>div {
     flex: 1 10 auto;
-    margin: 25px;
+    margin: 15px;
     /* and that, will result in a 10px gap */
     margin-left: 100px;
+  }
+  .column1 {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    font-family: 'basier_circleregular';
+    opacity: .3;
   }
 }
 
