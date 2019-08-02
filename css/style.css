@@ -16,7 +16,7 @@
 
 body {
   background-color: #F9F8F6;
-  -webkit-text-size-adjust:100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 .header001 {
@@ -478,11 +478,12 @@ div.projectlinks:hover:before {
   .header002 {
     position: fixed;
     display: inline-block;
-    right: 0px;
+    right: -135px;
     font-family: 'basier_square_monoregular', normal;
     word-spacing: 15px;
-    font-size: 12vw;
-    top: 16px;
+    font-size: 14px;
+    top: auto;
+    bottom: 210px;
     z-index: 500;
     transform: rotate(90deg)
   }

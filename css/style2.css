@@ -247,30 +247,30 @@ hr {
 @media only screen and (max-width: 1024px) {
     .header001 {
         position: fixed;
-        left: 40px;
-        top: 40px;
-        fill: black;
-        z-index: 100;
-        width: 45px;
-    }
-    .header002 {
+        left: 35px;
+        top: 35px;
+        z-index: 500;
+        width: 100px;
+      }
+      .header002 {
         position: fixed;
         display: inline-block;
+        right: -135px;
         font-family: 'basier_square_monoregular', normal;
-        word-spacing: 13px;
-        font-size: 13em;
-        top: 20px;
-        z-index: 1000;
-
-    }
-    .heading {
+        word-spacing: 15px;
+        font-size: 14px;
+        top: auto;
+        bottom: 210px;
+        z-index: 500;
+        transform: rotate(90deg)
+      }
+      .heading {
         position: fixed;
         text-align: center;
         left: 75px;
         right: 75px;
         top: 225;
-        width: 30px;
-    }
+      }
     .menu-container {
         position: absolute;
         left: 0px;
