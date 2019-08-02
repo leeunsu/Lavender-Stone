@@ -518,6 +518,7 @@ div.projectlinks:hover:before {
     left: 75px;
     right: 75px;
     top: 225;
+    font-size: 28px;
   }
   .projectlist {
     position: absolute;
@@ -600,13 +601,13 @@ div.projectlinks:hover:before {
     width: 100%;
     height: auto;
     justify-content: space-between;
-    left:-50px;
+    left:-10px;
   }
   .row1 {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 250px;
     font-size: 16px;
     margin-left: 0px;
   }
@@ -621,7 +622,7 @@ div.projectlinks:hover:before {
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 250px;
     font-size: 16px;
   }
   .row2>div {
@@ -634,7 +635,7 @@ div.projectlinks:hover:before {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 250px;
     font-size: 16px;
   }
   .row3>div {

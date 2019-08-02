@@ -22,9 +22,18 @@ body {
     position: fixed;
     left: 35px;
     top: 35px;
-    fill: black;
+    fill: rgb(255, 255, 255);
     z-index: 100;
 }
+
+
+.mobile-header001 {
+    visibility: hidden;
+  }
+  
+  .mobile-header002 {
+    visibility: hidden;
+  }
 
 .headerdot {
     display: none;
@@ -244,31 +253,49 @@ hr {
 }
 
 @media only screen and (max-width: 1024px) {
-    .header001 {
-        position: fixed;
-        left: 35px;
-        top: 35px;
-        z-index: 500;
-        width: 100px;
+    hr {
+      display: inline-block;
+      height: 1px;
+      width: 10px;
+      height: 0px;
+      border-top: 0px;
+      opacity: .5;
+    }
+    
+  
+  .header001 {
+    visibility: hidden;
+  }
+    .mobile-header001 {
+      visibility: visible;
+      position: fixed;
+      left: 20px;
+      top: 20px;
+      z-index: 500;
+      width: 100px;
     }
     .header002 {
-        position: fixed;
-        display: inline-block;
-        right: -135px;
-        font-family: 'basier_square_monoregular', normal;
-        word-spacing: 15px;
-        font-size: 14px;
-        top: auto;
-        bottom: 210px;
-        z-index: 500;
-        transform: rotate(90deg)
+      visibility: hidden;
+    }
+    .mobile-header002 {
+      visibility: visible;
+      position: fixed;
+      display: inline-block;
+      right: 20px;
+      font-family: 'basier_square_monoregular', normal;
+      word-spacing: 5px;
+      font-size: 12px;
+      top: 2px;
+      bottom: 210px;
+      z-index: 500;
     }
     .heading {
-        position: fixed;
-        text-align: center;
-        left: 75px;
-        right: 75px;
-        top: 225;
+      position: fixed;
+      text-align: center;
+      left: 75px;
+      right: 75px;
+      top: 225;
+      font-size: 28px;
     }
     .menu-container {
         position: absolute;
