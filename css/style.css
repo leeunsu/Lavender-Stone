@@ -577,10 +577,8 @@ div.projectlinks:hover:before {
     width: auto;
     height: auto;
     justify-content: space-between;
+    left:-50px;
   }
-
-
-
   .row1 {
     margin: 0px;
     display: flex;
