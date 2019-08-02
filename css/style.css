@@ -510,7 +510,7 @@ div.projectlinks:hover:before {
     font-family: 'basier_square_monoregular', normal;
     word-spacing: 5px;
     font-size: 12px;
-    top: 3px;
+    top: 2px;
     bottom: 210px;
     z-index: 500;
   }
@@ -527,6 +527,7 @@ div.projectlinks:hover:before {
     flex-direction: column;
     height: 300px;
     font-size: 21px;
+    margin-left: 130px;
   }
   .row1>div {
     flex: 1 1 auto;
