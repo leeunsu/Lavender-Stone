@@ -26,6 +26,14 @@ body {
   z-index: 500;
 }
 
+.mobile-header001 {
+  visibility: hidden;
+}
+
+.mobile-header002 {
+  visibility: hidden;
+}
+
 .headerdot {
   display: none;
   height: 6.5px;
@@ -468,7 +476,16 @@ div.projectlinks:hover:before {
 }
 
 @media only screen and (max-width: 1024px) {
-  .header001 {
+
+
+
+  
+
+.header001 {
+  visibility: hidden;
+}
+  .mobile-header001 {
+    visibility: visible;
     position: fixed;
     left: 35px;
     top: 35px;
@@ -476,16 +493,20 @@ div.projectlinks:hover:before {
     width: 100px;
   }
   .header002 {
+    visibility: hidden;
+  }
+  .mobile-header002 {
+    visibility: visible;
     position: fixed;
     display: inline-block;
-    right: -135px;
+    left: -140px;
     font-family: 'basier_square_monoregular', normal;
     word-spacing: 15px;
     font-size: 14px;
     top: auto;
     bottom: 210px;
     z-index: 500;
-    transform: rotate(90deg)
+    transform: rotate(-90deg);
   }
   .heading {
     position: fixed;
