@@ -508,9 +508,9 @@ div.projectlinks:hover:before {
     display: inline-block;
     right: 20px;
     font-family: 'basier_square_monoregular', normal;
-    word-spacing: 15px;
-    font-size: 13px;
-    top: -1px;
+    word-spacing: 5px;
+    font-size: 12px;
+    top: 3px;
     bottom: 210px;
     z-index: 500;
   }
