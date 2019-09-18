@@ -61,10 +61,15 @@
   height: auto;
 }
 
-.m-module001 a {
+.m-module001 a, .m-module001 a:visited {
   text-decoration: none;
   font-size: 1.4rem;
   color: black;
+  opacity: .5;
+}
+
+.m-module001 a:hover {
+  opacity: 1;
 }
 
 /* WORKS */
