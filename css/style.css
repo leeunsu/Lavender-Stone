@@ -46,16 +46,15 @@
 }
 
 .m-module001 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin: auto;
   width: 80%;
   display: flex;
   flex: 1;
   font-family: 'basier_square_monoregular';
-  font-size: 2rem;
+  font-size: 1.8rem;
   height: auto;
-
 
 }
 
@@ -89,8 +88,14 @@
 .w-module001 {
   font-family: 'Istok Web', sans-serif;
   font-weight: bold;
-  font-size: 1.8rem;
-  width: 50%;
+  font-size: 1.5rem;
+  width: 60%;
+}
+
+.w-module001 a {
+  font-family: 'basier_square_monoregular';
+  font-size: .8rem;
+  font-weight: 100;
 }
 
 .w-module002 {
@@ -213,6 +218,10 @@
     height: auto;
     line-height: 25px;
   }
+
+.w-module001 i {
+  visibility: hidden;
+}
 
   .m-module001 {
     width: 90%;
