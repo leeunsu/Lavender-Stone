@@ -15,11 +15,10 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Istok+Web:700&display=swap');
-
-/* * {
+* {
   border-style: solid;
   border-width: 1px;
-} */
+}
 
 .navbar {
   padding-top: 50px;
@@ -55,7 +54,6 @@
   font-family: 'basier_square_monoregular';
   font-size: 1.8rem;
   height: auto;
-
 }
 
 .works {
@@ -218,29 +216,27 @@
     height: auto;
     line-height: 25px;
   }
+  .w-module001 i {
+    visibility: hidden;
+  }
+  .w-module002 {
+    right: 50px;
 
-.w-module001 i {
-  visibility: hidden;
-}
-
+  }
   .m-module001 {
     width: 90%;
   }
-
   .works {
     flex-direction: column;
     width: 90%;
   }
-
   .w-module001 {
     padding-bottom: 20px;
     padding-top: 20px;
   }
-
   .w-module002 {
     padding-bottom: 20px;
   }
-
   .module001 a:nth-child(1) {
     font-family: 'Istok Web', sans-serif;
     font-weight: bold;
@@ -264,8 +260,12 @@
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
+.navbar, .navbar2 {
+  width: 90%;
+}
+
   .projects {
-    width: 80%;
+    width: 94%;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -279,8 +279,18 @@
     width: 45%;
     margin: auto;
   }
+
+  .m-module001 {
+    width: 90%;
+  }
+
+.works {
+  width: 90%;
+}
+
   .footer {
-    padding-top: 0px;
+    width: 90%;
+    padding-top: 20px;
   }
   .p-description {
     text-align: center;
