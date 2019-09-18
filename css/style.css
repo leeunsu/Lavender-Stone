@@ -226,6 +226,7 @@
   .m-module001 {
     width: 90%;
     padding-bottom: 25px;
+    padding-top: 25px;
   }
   .works {
     flex-direction: row;
@@ -291,7 +292,10 @@
   }
   .m-module001 {
     width: 90%;
+    padding-bottom: 40px;
+    padding-top: 40px;
   }
+
   .works {
     width: 90%;
   }
