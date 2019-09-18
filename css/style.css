@@ -121,7 +121,7 @@ margin: auto;
   flex-direction: row;
   text-align: center;
   font-family: 'basier_square_monoregular';
-  font-size: .8rem;
+  font-size: .6rem;
   height: auto;
   flex-flow: row wrap;
   margin: auto;
@@ -138,7 +138,9 @@ padding: 10px;
 }
 
 .p-description {
-  text-align: left;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 25px;
 }
 
 @media only screen and (max-width: 728px) {
