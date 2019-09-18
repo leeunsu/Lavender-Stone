@@ -34,7 +34,7 @@
 }
 
 .navbar {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .navbar2 {
@@ -44,22 +44,23 @@
 /* MAIN MODULE (TEXT) */
 
 .m-module001 {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   margin: auto;
   width: 80%;
   display: flex;
   flex: 1;
   font-family: 'basier_square_monoregular';
   font-size: 1.8rem;
+  line-height: 40px;
   height: auto;
 }
 
 /* WORKS */
 
 .works {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: auto;
   width: 80%;
   display: flex;
@@ -221,15 +222,10 @@
     height: auto;
     line-height: 25px;
   }
-  .w-module001 {
-    width: 30%;
-  }
-  .w-module002 {
-    width: 60%;
-    right: 50px;
-  }
+
   .m-module001 {
     width: 90%;
+    padding-bottom: 25px;
   }
   .works {
     flex-direction: row;
@@ -241,6 +237,13 @@
   }
   .w-module002 {
     padding-bottom: 20px;
+  }
+  .w-module001 {
+    width: 40%;
+  }
+  .w-module002 {
+    width: 50%;
+    right: 50px;
   }
   .module001 a:nth-child(1) {
     font-family: 'Istok Web', sans-serif;
