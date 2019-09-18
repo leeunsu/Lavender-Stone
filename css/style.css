@@ -15,10 +15,11 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Istok+Web:700&display=swap');
-* {
+
+/* * {
   border-style: solid;
   border-width: 1px;
-}
+} */
 
 .navbar {
   padding-top: 50px;
@@ -221,7 +222,6 @@
   }
   .w-module002 {
     right: 50px;
-
   }
   .m-module001 {
     width: 90%;
@@ -260,10 +260,9 @@
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-.navbar, .navbar2 {
-  width: 90%;
-}
-
+  .navbar, .navbar2 {
+    width: 90%;
+  }
   .projects {
     width: 94%;
     display: flex;
@@ -279,15 +278,12 @@
     width: 45%;
     margin: auto;
   }
-
   .m-module001 {
     width: 90%;
   }
-
-.works {
-  width: 90%;
-}
-
+  .works {
+    width: 90%;
+  }
   .footer {
     width: 90%;
     padding-top: 20px;
