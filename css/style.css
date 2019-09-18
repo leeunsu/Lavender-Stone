@@ -151,10 +151,18 @@ padding: 10px;
     margin: auto;
     text-align: center;
     font-family: 'basier_square_monoregular';
-    font-size: .85rem;
+    font-size: .6rem;
     height: auto;
     line-height: 80px;
   }
+
+  .p-description {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: -20px;
+
+  }
+
   .p-module001, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
     width: 95%;
     margin: auto;
