@@ -101,8 +101,7 @@
 }
 
 .w-module001 {
-  font-family: 'basier_circlemedium';
-  font-weight: bold;
+  font-family: 'basier_circlesemibold';
   font-size: 1.5rem;
   width: 60%;
 }
@@ -140,8 +139,7 @@
 }
 
 .module001 a:nth-child(1) {
-  font-family: 'basier_circlemedium';
-  font-weight: bold;
+  font-family: 'basier_circlesemibold';
   font-size: 1rem;
 }
 
@@ -276,8 +274,7 @@
     right: 50px;
   }
   .module001 a:nth-child(1) {
-    font-family: 'basier_circlemedium';
-    font-weight: bold;
+    font-family: 'basier_circlesemibold';
     font-size: 1rem;
   }
   .navbar2 {
