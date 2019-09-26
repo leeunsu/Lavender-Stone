@@ -132,6 +132,18 @@
   line-height: 25px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* MODULES */
 
 .module001 {
@@ -292,14 +304,14 @@
   .works {
     flex-flow: row wrap;
   }
+  /* FOOTER */
   .footer {
     width: 90%;
     padding-top: 25px;
   }
-}
+
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
-
   .navbar {
     padding-top: 35px;
   }
@@ -332,6 +344,10 @@
   .footer {
     width: 90%;
     padding-top: 25px;
+  }
+  .footer a {
+    text-decoration: none;
+    color: black
   }
   .p-description {
     text-align: center;
