@@ -100,9 +100,19 @@
   line-height: 25px;
 }
 
+.works a, .works a:visited {
+  text-decoration: none;
+  color: black;
+  opacity: .5;
+}
+
+.works a:hover {
+  opacity: 1;
+}
+
 .w-module001 {
   font-family: 'basier_circlesemibold';
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 60%;
 }
 
@@ -190,7 +200,7 @@
   max-height: 100%;
   display: flex;
   flex-direction: row;
-  text-align: right;
+  text-align: left;
   font-family: 'basier_square_monoregular';
   font-size: .6rem;
   height: auto;
@@ -208,6 +218,10 @@
   width: 100%;
 }
 
+.p-module001 img:hover, .p-module002 img:hover, .p-module003 img:hover, .p-module004 img:hover, .p-module005 img:hover, .p-module006 img:hover {
+  width: 98%;
+}
+
 .p-description {
   letter-spacing: 2px;
   line-height: 20px;
@@ -215,14 +229,55 @@
   padding-top: 10px
 }
 
-.flag-module {
-width:100%;
+.b-module001 {
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  font-family: 'basier_square_monoregular';
+  font-size: 1.8rem;
 }
 
-.flag-module img {
-  width:100%;
-  }
-  
+.b-module001 img {
+  width: 100%;
+}
+
+.b-module-container {
+  flex-flow: row wrap;
+  display: flex;
+}
+
+.b-module002 {
+  width: 70%;
+  padding-top: 50px;
+}
+
+.b-module002 h1 {
+  width: 90%;
+}
+
+.b-module003 {
+  width: 32%;
+}
+
+.b-module-spacer {
+  width: 5%;
+}
+
+.b-module001 h1 {
+  font-family: 'basier_circlemedium';
+  font-size: .8rem;
+  color: black;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: unset;
+}
+
+.b-module001 p {
+  font-family: 'basier_circleregular';
+  font-size: .8rem;
+  color: black;
+  padding-bottom: 35px
+}
 
 @media only screen and (max-width: 728px) {
   .projects {
@@ -261,7 +316,7 @@ width:100%;
   }
   .m-module001 {
     width: 90%;
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     padding-top: 25px;
   }
   .works {
@@ -270,10 +325,11 @@ width:100%;
   }
   .w-module001 {
     padding-bottom: 20px;
-    padding-top: 0px;
+    padding-top: 35px;
   }
   .w-module002 {
     padding-bottom: 20px;
+    padding-top: 35px;
   }
   .w-module001 {
     width: 40%;
@@ -305,6 +361,20 @@ width:100%;
   .footer {
     width: 90%;
     padding-top: 25px;
+  }
+  .b-module001 {
+    width: 90%;
+  }
+  .b-module001 img {
+    width: 100%;
+    padding-top: 35px;
+  }
+  .b-module002 {
+    width: 100%;
+    padding-top: 25px;
+  }
+  .b-module003 {
+    width: 50%;
   }
 }
 
@@ -350,6 +420,16 @@ width:100%;
     text-align: center;
     letter-spacing: 2px;
     margin-top: -20px;
+  }
+  .b-module001 {
+    width: 90%;
+  }
+  .b-module002 {
+    width: 100%;
+    padding-top: 25px;
+  }
+  .b-module003 {
+    width: 45%;
   }
 }
 
