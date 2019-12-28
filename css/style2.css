@@ -43,7 +43,7 @@ body {
 
 .navbar, .navbar2 {
     margin: auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex: 1;
     font-family: 'basier_circleregular';
@@ -54,7 +54,7 @@ body {
 }
 
 .navbar {
-    padding-top: 80px;
+    padding-top: 50px;
 }
 
 .navbar2 {
@@ -69,10 +69,10 @@ body {
 /* MAIN MODULE (TEXT) */
 
 .m-module001 {
-    padding-top: 80px;
+    padding-top: 50px;
     padding-bottom: 50px;
     margin: auto;
-    width: 80%;
+    width: 90%;
     font-family: 'basier_square_monoregular';
     font-size: 1.8rem;
     line-height: 40px;
@@ -90,10 +90,10 @@ body {
 
 .about {
     color: white;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex: 1;
     font-family: 'basier_circleregular';
@@ -139,7 +139,7 @@ body {
     padding-bottom: 50px;
     bottom: 0px;
     margin: auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     flex: 1;
     font-family: 'basier_square_monoregular';
@@ -207,7 +207,7 @@ body {
 /* PROJECTS */
 
 .projects {
-    width: 80%;
+    width: 90%;
     max-height: 100%;
     display: flex;
     flex-direction: row;

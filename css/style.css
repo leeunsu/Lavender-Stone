@@ -39,7 +39,7 @@
 
 .navbar, .navbar2 {
   margin: auto;
-  width: 80%;
+  width: 90%;
   display: flex;
   flex: 1;
   font-family: 'basier_circleregular';
@@ -49,7 +49,7 @@
 }
 
 .navbar {
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 .navbar2 {
@@ -64,10 +64,10 @@
 /* MAIN MODULE (TEXT) */
 
 .m-module001 {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 50px;
   margin: auto;
-  width: 80%;
+  width: 90%;
   font-family: 'basier_square_monoregular';
   font-size: 1.8rem;
   line-height: 40px;
@@ -76,11 +76,13 @@
 
 .mh-module {
   margin: auto;
-  width: 80%;
+  width: 90%;
   font-family: 'basier_square_monoregular';
   font-size: 1.8rem;
   line-height: 40px;
   height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .mh-module img {
@@ -101,10 +103,10 @@
 /* WORKS */
 
 .works {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin: auto;
-  width: 80%;
+  width: 90%;
   display: flex;
   flex: 1;
   font-family: 'basier_circleregular';
@@ -126,7 +128,7 @@
 .w-module001 {
   font-family: 'basier_circlesemibold';
   font-size: 1rem;
-  width: 60%;
+  width: 90%;
 }
 
 .w-module001 a {
@@ -146,7 +148,7 @@
   padding-bottom: 50px;
   bottom: 0px;
   margin: auto;
-  width: 80%;
+  width: 90%;
   display: flex;
   flex: 1;
   font-family: 'basier_square_monoregular';
@@ -209,7 +211,7 @@
 /* PROJECTS */
 
 .projects {
-  width: 80%;
+  width: 90%;
   max-height: 100%;
   display: flex;
   flex-direction: row;
