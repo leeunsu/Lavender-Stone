@@ -333,7 +333,7 @@
   }
   .m-module001 {
     width: 90%;
-    padding-bottom: 0px;
+    padding-bottom: 25px;
     padding-top: 25px;
   }
 
@@ -342,12 +342,12 @@
     width: 90%;
   }
   .w-module001 {
-    padding-bottom: 20px;
-    padding-top: 35px;
+    padding-bottom: 25px;
+    padding-top: 25px;
   }
   .w-module002 {
-    padding-bottom: 20px;
-    padding-top: 35px;
+    padding-bottom: 25px;
+    padding-top: 25px;
   }
   .w-module001 {
     width: 40%;
@@ -361,7 +361,7 @@
     font-size: 1rem;
   }
   .navbar2 {
-    padding-bottom: 45px;
+    padding-bottom: 25px;
     margin: auto;
     width: 90%;
     display: flex;
@@ -385,7 +385,7 @@
   }
   .b-module001 img {
     width: 100%;
-    padding-top: 35px;
+    padding-top: 25px;
   }
   .b-module002 {
     width: 100%;
@@ -398,7 +398,7 @@
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
   .navbar {
-    padding-top: 35px;
+    padding-top: 40px;
   }
   .navbar, .navbar2 {
     width: 90%;
