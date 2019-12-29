@@ -50,7 +50,6 @@
 
 .navbar {
   padding-top: 50px;
-  overflow: scroll;
 }
 
 .navbar2 {
@@ -60,6 +59,25 @@
 .navbar2 a, .navbar2 a:visited {
   color: black;
   text-decoration: none;
+}
+
+/* TAGS */
+
+.tagbar {
+  padding-top:15px;
+  overflow: scroll;
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex: 1;
+  height: auto;
+  line-height: 25px;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.tagbar::-webkit-scrollbar {
+  width: 0 !important
 }
 
 /* MAIN MODULE (TEXT) */
@@ -519,4 +537,3 @@
 .tags:hover {
   opacity: 1;
 }
-
