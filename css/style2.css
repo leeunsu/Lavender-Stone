@@ -219,13 +219,13 @@ body {
     margin: auto;
 }
 
-.p-module001, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
+.p-module, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
     width: 31%;
     margin: auto;
     padding: 10px;
 }
 
-.p-module001 img, .p-module002 img, .p-module003 img, .p-module004 img, .p-module005 img, .p-module006 img {
+.p-module img, .p-module002 img, .p-module003 img, .p-module004 img, .p-module005 img, .p-module006 img {
     width: 100%;
 }
 
@@ -252,11 +252,11 @@ body {
         letter-spacing: 2px;
         margin-top: -20px;
     }
-    .p-module001, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
+    .p-module, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
         width: 95%;
         margin: auto;
     }
-    .p-module001 img, .p-module002 img, .p-module003 img, .p-module004 img, .p-module005 img, .p-module006 img {
+    .p-module img, .p-module002 img, .p-module003 img, .p-module004 img, .p-module005 img, .p-module006 img {
         width: 100%;
     }
     .navbar {
@@ -357,7 +357,7 @@ body {
         height: auto;
         line-height: 80px;
     }
-    .p-module001, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
+    .p-module, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
         width: 45%;
         margin: auto;
     }
