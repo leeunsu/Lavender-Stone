@@ -221,29 +221,20 @@
   height: auto;
   flex-flow: row wrap;
   margin: auto;
+  padding-top: 25px;
 }
 
 .p-module001, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
-  width: 33%;
-  margin: auto;
-  padding: 0px;
+  width: 32.6%;
+  padding: 2px;
 }
 
 .p-module001 img, .p-module002 img, .p-module003 img, .p-module004 img, .p-module005 img, .p-module006 img {
   width: 100%;
-  opacity: .8;
 }
 
 .p-module001 img:hover, .p-module002 img:hover, .p-module003 img:hover, .p-module004 img:hover, .p-module005 img:hover, .p-module006 img:hover {
   width: 100%;
-  opacity: 1;
-}
-
-.p-description {
-  letter-spacing: 2px;
-  line-height: 20px;
-  padding-bottom: 25px;
-  padding-top: 10px
 }
 
 .b-module001 {
@@ -308,11 +299,6 @@
     height: auto;
     line-height: 80px;
   }
-  .p-description {
-    text-align: center;
-    letter-spacing: 2px;
-    margin-top: -20px;
-  }
   .p-module001, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
     width: 95%;
     margin: auto;
@@ -336,7 +322,6 @@
     padding-bottom: 25px;
     padding-top: 25px;
   }
-
   .works {
     flex-direction: row;
     width: 90%;
@@ -434,11 +419,6 @@
     text-decoration: none;
     color: black
   }
-  .p-description {
-    text-align: center;
-    letter-spacing: 2px;
-    margin-top: -20px;
-  }
   .b-module001 {
     width: 90%;
   }
@@ -456,4 +436,54 @@
     width: 75%;
     margin: auto;
   }
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  margin: auto;
+}
+
+.container:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  font-family: 'basier_square_monoregular';
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.text2 {
+  font-family: 'basier_circleregular';
+  font-size: .8rem;
+  color: white;
+  position: relative;
+  top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
