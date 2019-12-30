@@ -314,7 +314,7 @@ p a, p a:link, p a:visited {
   height: auto;
   line-height: 1.5rem;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .substance img {
@@ -584,6 +584,9 @@ p a, p a:link, p a:visited {
     display: inherit;
     width: 100%;
     overflow: scroll;
+  }
+  .tagbar {
+    width: 100%;
   }
 }
 
