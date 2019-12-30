@@ -342,6 +342,14 @@ p a, p a:link, p a:visited {
   width: 60%;
 }
 
+.substance_module004 {
+  display: flex;
+}
+
+.substance_spacer {
+  width: 10%;
+}
+
 .icons {
   padding-top: 0px;
 }
