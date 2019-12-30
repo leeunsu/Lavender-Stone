@@ -93,16 +93,14 @@
   height: auto;
 }
 
-.m-projectmodule {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  display: none;
-}
-
 .m-projectdescription {
-  display:none;
+  display: none;
   justify-content: left;
-
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  width: 90%;
+  margin: auto;
 }
 
 .mh-module {
@@ -466,11 +464,9 @@
     width: 45%;
   }
   .m-projectdescription {
-    display: initial;
+    display: none;
   }
-  .m-projectmodule {
-    display: initial;
-  }
+
 }
 
 @media only screen and (max-width: 2560px) and (min-width: 1600px) {
@@ -627,17 +623,16 @@ p {
 .icecream {
   width: 90%;
   margin: auto;
-  display: -ms-flexbox; /* IE10 */
+  display: -ms-flexbox;
+  /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
+  -ms-flex-wrap: wrap;
+  /* IE10 */
   flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 
 .icecream img {
   width: 64px;
-  padding:5px;
-
+  padding: 5px;
 }
-
