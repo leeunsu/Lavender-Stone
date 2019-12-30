@@ -324,9 +324,20 @@ p a, p a:link, p a:visited {
 .substance_image {
   width: 90%;
   margin: auto;
+
 }
 
 .substance_image img {
+  width: 100%;
+}
+
+.substance_poster {
+  width: 90%;
+  margin: auto;
+
+}
+
+.substance_poster img {
   width: 100%;
 }
 
@@ -349,6 +360,16 @@ p a, p a:link, p a:visited {
 
 .substance_spacer {
   width: 50%;
+}
+
+.substance_mobileposter {
+  display:none;
+  width: 100%;
+  overflow: scroll;
+}
+
+.substance_mobileposter img {
+  height: 500px;
 }
 
 .icons {
@@ -552,6 +573,17 @@ p a, p a:link, p a:visited {
   }
   .substance_image {
     width: 100%;
+  }
+  .substance_poster {
+    display: none;
+    width: 100%;
+  
+  }
+
+  .substance_mobileposter {
+    display: inherit;
+    width: 100%;
+    overflow: scroll;
   }
 }
 
