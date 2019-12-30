@@ -71,6 +71,7 @@ p a, p a:link, p a:visited {
 
 
 
+
 .navbar, .navbar2 {
   margin: auto;
   width: 90%;
@@ -313,7 +314,7 @@ p a, p a:link, p a:visited {
   height: auto;
   line-height: 1.5rem;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .substance img {
@@ -347,7 +348,7 @@ p a, p a:link, p a:visited {
 }
 
 .substance_spacer {
-  width: 10%;
+  width: 50%;
 }
 
 .icons {
