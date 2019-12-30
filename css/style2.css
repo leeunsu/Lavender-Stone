@@ -124,6 +124,13 @@ body {
     width: 130px;
 }
 
+.a-module002 a:link {
+    opacity: .5;
+}
+.a-module002 a:hover {
+    opacity: 1;
+}
+
 .a-module-description {
     width: 55%;
 }
