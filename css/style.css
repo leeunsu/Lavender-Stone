@@ -93,6 +93,18 @@
   height: auto;
 }
 
+.m-projectmodule {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: none;
+}
+
+.m-projectdescription {
+  display:none;
+  justify-content: left;
+
+}
+
 .mh-module {
   margin: auto;
   width: 90%;
@@ -400,6 +412,12 @@
   .b-module003 {
     width: 50%;
   }
+  .m-projectdescription {
+    display: initial;
+  }
+  .m-projectmodule {
+    display: initial;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 729px) {
@@ -446,6 +464,12 @@
   }
   .b-module003 {
     width: 45%;
+  }
+  .m-projectdescription {
+    display: initial;
+  }
+  .m-projectmodule {
+    display: initial;
   }
 }
 
@@ -494,6 +518,17 @@
   padding-left: 10%;
   padding-right: 10%;
   overflow: scroll;
+}
+
+h1 {
+  font-family: 'basier_square_monoregular';
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+p {
+  font-family: 'basier_circleregular';
+  font-size: .8rem;
 }
 
 .text2 {
@@ -605,3 +640,4 @@
   padding:5px;
 
 }
+
