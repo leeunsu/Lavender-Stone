@@ -59,6 +59,18 @@ h1 a, h1 a:visited {
   color: initial;
 }
 
+h2 a, h2 a:link, h2 a:visited {
+  text-decoration: none;
+  color: initial;
+}
+
+p a, p a:link, p a:visited {
+  text-decoration: none;
+  color: initial;
+}
+
+
+
 .navbar, .navbar2 {
   margin: auto;
   width: 90%;
@@ -299,7 +311,7 @@ h1 a, h1 a:visited {
   font-family: 'basier_square_monoregular';
   font-size: .8rem;
   height: auto;
-  line-height: 1.2rem;
+  line-height: 1.5rem;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -521,11 +533,15 @@ h1 a, h1 a:visited {
   }
   .substance_module001 {
     width: 100%;
+    padding-bottom: 25px;
   }
-  .substance_module002{
+  .substance_module002 {
     width: 100%;
   }
-  .substance_module003{
+  .substance_module003 {
+    width: 100%;
+  }
+  .substance_image {
     width: 100%;
   }
 }
