@@ -74,9 +74,6 @@ p a:hover {
   opacity: 1;
 }
 
-
-
-
 .navbar, .navbar2 {
   margin: auto;
   width: 90%;
@@ -329,7 +326,6 @@ p a:hover {
 .substance_image {
   width: 90%;
   margin: auto;
-
 }
 
 .substance_image img {
@@ -339,7 +335,6 @@ p a:hover {
 .substance_poster {
   width: 90%;
   margin: auto;
-
 }
 
 .substance_poster img {
@@ -368,7 +363,7 @@ p a:hover {
 }
 
 .substance_mobileposter {
-  display:none;
+  display: none;
   width: 100%;
   overflow: scroll;
 }
@@ -585,9 +580,7 @@ p a:hover {
   .substance_poster {
     display: none;
     width: 100%;
-  
   }
-
   .substance_mobileposter {
     display: inherit;
     width: 100%;
@@ -634,6 +627,9 @@ p a:hover {
     color: black
   }
   .m-projectdescription {
+    display: none;
+  }
+  .overlay, .text, .text2 {
     display: none;
   }
   .substance_spacer {
@@ -686,7 +682,7 @@ p a:hover {
   .column {
     -ms-flex: 50%;
     flex: 50%;
-    max-width: 50%;
+    max-width: 49.3%;
   }
 }
 
