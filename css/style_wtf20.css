@@ -711,7 +711,7 @@ p a:hover {
     }
 }
 
-/* customizable snowflake styling */
+/* SNOWFLAKES */
 
 .snowflake {
     color: white;
@@ -768,7 +768,7 @@ p a:hover {
 .snowflake {
     position: fixed;
     top: -10%;
-    z-index: 9999;
+    z-index: -1;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -846,17 +846,4 @@ p a:hover {
     animation-delay: 3s, 1.5s
 }
 
-/* Demo Purpose Only*/
 
-.demo {
-    font-family: 'Raleway', sans-serif;
-    color: white;
-    display: block;
-    margin: 0 auto;
-    padding: 15px 0;
-    text-align: center;
-}
-
-.demo a {
-    font-family: 'Raleway', sans-serif;
-}
