@@ -67,6 +67,11 @@ h2 a, h2 a:link, h2 a:visited {
 p a, p a:link, p a:visited {
   text-decoration: none;
   color: initial;
+  opacity: .5;
+}
+
+p a:hover {
+  opacity: 1;
 }
 
 
