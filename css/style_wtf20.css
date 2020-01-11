@@ -386,8 +386,19 @@ p a:hover {
     padding: 10px 0px 10px 0px;
 }
 
+
 .substance_mobileposter img {
     height: 500px;
+}
+
+.substance_mobileimage {
+    display: none;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}
+
+.substance_mobileimage img {
+    width: 100%;
 }
 
 .icons {
@@ -603,6 +614,10 @@ p a:hover {
         display: inherit;
         width: 100%;
         overflow: scroll;
+    }
+
+    .substance_mobileimage {
+        display: initial;
     }
     .tagbar {
         width: 100%;
