@@ -341,6 +341,7 @@ p a:hover {
 .substance_image {
     width: 90%;
     margin: auto;
+    padding: 10px 0px 10px 0px;
 }
 
 .substance_image img {
@@ -350,6 +351,7 @@ p a:hover {
 .substance_poster {
     width: 90%;
     margin: auto;
+    padding: 10px 0px 10px 0px;
 }
 
 .substance_poster img {
@@ -381,6 +383,7 @@ p a:hover {
     display: none;
     width: 100%;
     overflow: scroll;
+    padding: 10px 0px 10px 0px;
 }
 
 .substance_mobileposter img {
