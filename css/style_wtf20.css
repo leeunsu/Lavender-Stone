@@ -668,19 +668,7 @@ p a:hover {
     .substance_spacer {
         width: 20%;
     }
-    .substance_poster {
-        display: none;
-        width: 100%;
-    }
-    .substance_mobileposter {
-        display: inherit;
-        width: 90%;
-        overflow: scroll;
-        margin: auto;
-    }
-    .substance_mobileposter img {
-        height: 800px;
-    }
+
 }
 
 @media only screen and (max-width: 2560px) and (min-width: 1600px) {
