@@ -30,6 +30,70 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'basier_circle_monobold';
+  src: url('basiercirclemono-bold-webfont.eot');
+  src: url('basiercirclemono-bold-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-bold-webfont.woff2') format('woff2'), url('basiercirclemono-bold-webfont.woff') format('woff'), url('basiercirclemono-bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basier_circle_monobold_italic';
+  src: url('basiercirclemono-bolditalic-webfont.eot');
+  src: url('basiercirclemono-bolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-bolditalic-webfont.woff2') format('woff2'), url('basiercirclemono-bolditalic-webfont.woff') format('woff'), url('basiercirclemono-bolditalic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basier_circle_monomedium';
+  src: url('basiercirclemono-medium-webfont.eot');
+  src: url('basiercirclemono-medium-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-medium-webfont.woff2') format('woff2'), url('basiercirclemono-medium-webfont.woff') format('woff'), url('basiercirclemono-medium-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basier_circle_monoMdIt';
+  src: url('basiercirclemono-mediumitalic-webfont.eot');
+  src: url('basiercirclemono-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-mediumitalic-webfont.woff2') format('woff2'), url('basiercirclemono-mediumitalic-webfont.woff') format('woff'), url('basiercirclemono-mediumitalic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basier_circle_monoregular';
+  src: url('basiercirclemono-regular-webfont.eot');
+  src: url('basiercirclemono-regular-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-regular-webfont.woff2') format('woff2'), url('basiercirclemono-regular-webfont.woff') format('woff'), url('basiercirclemono-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basier_circle_monoRgIt';
+  src: url('basiercirclemono-regularitalic-webfont.eot');
+  src: url('basiercirclemono-regularitalic-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-regularitalic-webfont.woff2') format('woff2'), url('basiercirclemono-regularitalic-webfont.woff') format('woff'), url('basiercirclemono-regularitalic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basier_circle_monosemibold';
+  src: url('basiercirclemono-semibold-webfont.eot');
+  src: url('basiercirclemono-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-semibold-webfont.woff2') format('woff2'), url('basiercirclemono-semibold-webfont.woff') format('woff'), url('basiercirclemono-semibold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'basier_circle_monoSBdIt';
+  src: url('basiercirclemono-semibolditalic-webfont.eot');
+  src: url('basiercirclemono-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-semibolditalic-webfont.woff2') format('woff2'), url('basiercirclemono-semibolditalic-webfont.woff') format('woff'), url('basiercirclemono-semibolditalic-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* * {
   border-style: solid;
   border-width: 1px;
@@ -37,8 +101,13 @@
 
 /* NAVIGATION */
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  font-family: 'basier_square_monoregular';
+  font-family: 'basier_circle_monomedium';
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 30px;
@@ -94,7 +163,7 @@ p a:hover {
 }
 
 .navbar2 a, .navbar2 a:visited {
-  color: black;
+  color: rgb(20, 20, 20);
   text-decoration: none;
 }
 
@@ -124,10 +193,11 @@ p a:hover {
   padding-bottom: 50px;
   margin: auto;
   width: 90%;
-  font-family: 'basier_square_monoregular';
-  font-size: 1.8rem;
-  line-height: 40px;
+  font-family: 'basier_circle_monomedium';
+  font-size: 3rem;
+  line-height: auto;
   height: auto;
+  hyphens: auto;
 }
 
 .m-projectdescription {
@@ -142,7 +212,7 @@ p a:hover {
 .m-module001 a, .m-module001 a:visited {
   text-decoration: none;
   font-size: 1.4rem;
-  color: black;
+  color: rgb(20, 20, 20);
   opacity: .5;
 }
 
@@ -153,7 +223,7 @@ p a:hover {
 .mh-module {
   margin: auto;
   width: 90%;
-  font-family: 'basier_square_monoregular';
+  font-family: 'basier_circle_monomedium';
   font-size: 1.8rem;
   line-height: 40px;
   height: auto;
@@ -182,7 +252,7 @@ p a:hover {
 
 .works a, .works a:visited {
   text-decoration: none;
-  color: black;
+  color: rgb(20, 20, 20);
   opacity: .5;
 }
 
@@ -197,7 +267,7 @@ p a:hover {
 }
 
 .w-module001 a {
-  font-family: 'basier_square_monoregular';
+  font-family: 'basier_circle_monomedium';
   font-size: .8rem;
   font-weight: 100;
 }
@@ -208,6 +278,14 @@ p a:hover {
 
 /* FOOTER */
 
+.footercasing {
+  width: 100%;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
 .footer {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -216,10 +294,35 @@ p a:hover {
   width: 90%;
   display: flex;
   flex: 1;
-  font-family: 'basier_square_monoregular';
+  font-family: 'basier_circleregular';
   font-size: .8rem;
+  color: white;
   height: auto;
   line-height: 25px;
+}
+
+.footer hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: rgb(255, 255, 255);
+  /* old IE */
+  background-color: rgb(78, 78, 78);
+  /* Modern Browsers */
+}
+
+.footer a, .footer a:link, .footer a:visited {
+  text-decoration: none;
+  color: white !important;
+  opacity: .5;
+}
+
+.footer a:hover {
+  opacity: 1;
+}
+
+.footer .active {
+  opacity: 1 !important;
 }
 
 /* MODULES */
@@ -257,7 +360,7 @@ p a:hover {
 .module001 a, .module001 a:visited {
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: rgb(20, 20, 20);
 }
 
 .module003 a {
@@ -275,27 +378,63 @@ p a:hover {
 
 /* PROJECTS */
 
+.projectbase {
+  position: relative;
+
+}
+.projectcasing {
+  padding-left: 35%;
+  overflow: scroll;
+  display: block;
+  position: relative;
+  overscroll-behavior-x: contain;
+}
+
+.projectbase_info {
+  position: absolute;
+  left: 0;
+  width: 35%;
+  height: 100%;
+  margin-right: 8px;
+  background-color: rgb(20, 20, 20);
+  z-index: 500;
+  color: white;
+  font-family: 'basier_circle_monomedium';
+  font-size: 2rem;
+
+}
+
+.projectbase_info_child {
+  padding: 50px;
+
+}
+
 .projects {
-  width: 90%;
+  width: 300%;
   max-height: 100%;
   display: flex;
   flex-direction: row;
   text-align: left;
-  font-family: 'basier_square_monoregular';
+  font-family: 'basier_circle_monomedium';
   font-size: .6rem;
-  flex-flow: row wrap;
+  /* flex-flow: row wrap; */
   margin: auto;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+
+
+
 }
 
 .p-module001 {
-  width: 32.65%;
-  overflow: hidden;
-  padding-bottom: 15px;
+  width: 33.30%;
+  padding-bottom: 0px;
+
+     
+
 }
 
 .p-module001 img {
-  width: 100%;
+  width: 100%;   
 }
 
 .p-module001 img:hover {
@@ -311,7 +450,7 @@ p a:hover {
   flex-direction: row;
   flex-flow: row wrap;
   flex: 1;
-  font-family: 'basier_square_monoregular';
+  font-family: 'basier_circle_monomedium';
   font-size: .8rem;
   height: auto;
   line-height: 1.5rem;
@@ -390,7 +529,7 @@ p a:hover {
   font-size: .8rem;
   background-color: white;
   border: none;
-  color: black;
+  color: rgb(20, 20, 20);
   padding: 5px 15px;
   text-align: center;
   text-decoration: none;
@@ -399,10 +538,33 @@ p a:hover {
   cursor: pointer;
 }
 
+.buttons {
+  font-family: 'basier_circleregular';
+  font-size: .8rem;
+  background-color: transparent;
+  border: none;
+  border-color: white;
+  border-style: solid;
+  border-width: 1.5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.buttons:hover {
+  background-color: white;
+  color: black;
+}
+
 .tags {
   font-family: 'basier_circleregular';
   font-size: .8rem;
-  background-color: black;
+  background-color: rgb(20, 20, 20);
   border: none;
   color: white;
   padding: 5px 15px;
@@ -445,7 +607,7 @@ p a:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: black;
+  background-color: rgb(20, 20, 20);
   margin: auto;
 }
 
@@ -454,7 +616,7 @@ p a:hover {
 }
 
 .text {
-  font-family: 'basier_square_monoregular';
+  font-family: 'basier_circle_monomedium';
   font-size: 1.5rem;
   color: white;
   position: relative;
@@ -475,18 +637,39 @@ p a:hover {
 }
 
 @media only screen and (max-width: 728px) {
+.projectbase {
+  position: relative;
+}
+.projectcasing {
+  padding-left: 0%;
+  overflow: scroll;
+  display: block;
+  position: relative;
+  overscroll-behavior-x: contain;
+}
+
+.projectbase_info {
+  display: none;
+
+}
+
+.projectbase_info_child {
+display:none
+}
+
+
   .projects {
     width: 100%;
     display: flex;
     flex-direction: column;
     margin: auto;
     text-align: center;
-    font-family: 'basier_square_monoregular';
+    font-family: 'basier_circle_monomedium';
     font-size: .6rem;
     height: auto;
   }
   .p-module001, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
-    width: 95%;
+    width: 100%;
     margin: auto;
   }
   .p-module001 img, .p-module002 img, .p-module003 img, .p-module004 img, .p-module005 img, .p-module006 img {
@@ -507,6 +690,10 @@ p a:hover {
     width: 90%;
     padding-bottom: 25px;
     padding-top: 25px;
+    font-size: 3rem;
+    line-height: auto;
+    text-align: right;
+    hyphens: manual;
   }
   .works {
     flex-direction: row;
@@ -548,7 +735,7 @@ p a:hover {
   }
   /* FOOTER */
   .footer {
-    width: 90%;
+    width: 80%;
     padding-top: 25px;
   }
   .m-projectdescription {
@@ -594,7 +781,7 @@ p a:hover {
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 729px) {
+@media only screen and (max-width: 1023px) and (min-width: 729px) {
   .navbar {
     padding-top: 40px;
   }
@@ -602,16 +789,13 @@ p a:hover {
     width: 90%;
   }
   .projects {
-    width: 90%;
-    display: flex;
-    flex-direction: row;
+    width: 500%;
     text-align: center;
-    font-family: 'basier_square_monoregular';
+    font-family: 'basier_circle_monomedium';
     font-size: .6rem;
-    height: auto;
   }
   .p-module001, .p-module002, .p-module003, .p-module004, .p-module005, .p-module006 {
-    width: 49%;
+    width: 100%;
   }
   .m-module001 {
     width: 90%;
@@ -638,8 +822,6 @@ p a:hover {
   .substance_spacer {
     width: 20%;
   }
-
-
 }
 
 @media only screen and (max-width: 2560px) and (min-width: 1600px) {
@@ -701,5 +883,137 @@ p a:hover {
   }
 }
 
+/* SNOWFLAKES */
 
+.snowflake {
+  color: white;
+  font-size: 1.2em;
+  font-family: Arial;
+}
+
+@-webkit-keyframes snowflakes-fall {
+  0% {
+    top: -10%
+  }
+  100% {
+    top: 100%
+  }
+}
+
+@-webkit-keyframes snowflakes-shake {
+  0% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px)
+  }
+  50% {
+    -webkit-transform: translateX(80px);
+    transform: translateX(80px)
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px)
+  }
+}
+
+@keyframes snowflakes-fall {
+  0% {
+    top: -10%
+  }
+  100% {
+    top: 100%
+  }
+}
+
+@keyframes snowflakes-shake {
+  0% {
+    transform: translateX(0px)
+  }
+  50% {
+    transform: translateX(80px)
+  }
+  100% {
+    transform: translateX(0px)
+  }
+}
+
+.snowflake {
+  position: fixed;
+  top: -10%;
+  z-index: -1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+  -webkit-animation-name: snowflakes-fall, snowflakes-shake;
+  -webkit-animation-duration: 10s, 3s;
+  -webkit-animation-timing-function: linear, ease-in-out;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-play-state: running, running;
+  animation-name: snowflakes-fall, snowflakes-shake;
+  animation-duration: 10s, 3s;
+  animation-timing-function: linear, ease-in-out;
+  animation-iteration-count: infinite, infinite;
+  animation-play-state: running, running
+}
+
+.snowflake:nth-of-type(0) {
+  left: 1%;
+  -webkit-animation-delay: 0s, 0s;
+  animation-delay: 0s, 0s
+}
+
+.snowflake:nth-of-type(1) {
+  left: 10%;
+  -webkit-animation-delay: 1s, 1s;
+  animation-delay: 1s, 1s
+}
+
+.snowflake:nth-of-type(2) {
+  left: 20%;
+  -webkit-animation-delay: 6s, .5s;
+  animation-delay: 6s, .5s
+}
+
+.snowflake:nth-of-type(3) {
+  left: 30%;
+  -webkit-animation-delay: 4s, 2s;
+  animation-delay: 4s, 2s
+}
+
+.snowflake:nth-of-type(4) {
+  left: 40%;
+  -webkit-animation-delay: 2s, 2s;
+  animation-delay: 2s, 2s
+}
+
+.snowflake:nth-of-type(5) {
+  left: 50%;
+  -webkit-animation-delay: 8s, 3s;
+  animation-delay: 8s, 3s
+}
+
+.snowflake:nth-of-type(6) {
+  left: 60%;
+  -webkit-animation-delay: 6s, 2s;
+  animation-delay: 6s, 2s
+}
+
+.snowflake:nth-of-type(7) {
+  left: 70%;
+  -webkit-animation-delay: 2.5s, 1s;
+  animation-delay: 2.5s, 1s
+}
+
+.snowflake:nth-of-type(8) {
+  left: 80%;
+  -webkit-animation-delay: 1s, 0s;
+  animation-delay: 1s, 0s
+}
+
+.snowflake:nth-of-type(9) {
+  left: 90%;
+  -webkit-animation-delay: 3s, 1.5s;
+  animation-delay: 3s, 1.5s
+}
 

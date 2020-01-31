@@ -150,7 +150,7 @@ p a:hover {
 .m-module001 a, .m-module001 a:visited {
     text-decoration: none;
     font-size: 1.4rem;
-    color: black;
+    color: rgb(20, 20, 20);
     opacity: .5;
 }
 
@@ -190,7 +190,7 @@ p a:hover {
 
 .works a, .works a:visited {
     text-decoration: none;
-    color: black;
+    color: rgb(20, 20, 20);
     opacity: .5;
 }
 
@@ -416,7 +416,7 @@ p a:hover {
     font-size: .8rem;
     background-color: white;
     border: none;
-    color: black;
+    color: rgb(20, 20, 20);
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
@@ -471,7 +471,7 @@ p a:hover {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     margin: auto;
 }
 

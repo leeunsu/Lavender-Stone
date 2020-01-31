@@ -30,6 +30,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'basier_circle_monomedium';
+    src: url('basiercirclemono-medium-webfont.eot');
+    src: url('basiercirclemono-medium-webfont.eot?#iefix') format('embedded-opentype'), url('basiercirclemono-medium-webfont.woff2') format('woff2'), url('basiercirclemono-medium-webfont.woff') format('woff'), url('basiercirclemono-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* * {
     border-style: solid;
     border-width: 1px;
@@ -38,7 +46,9 @@
 /* NAVIGATION */
 
 body {
-    background: black;
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
 }
 
 .navbar, .navbar2 {
@@ -73,8 +83,8 @@ body {
     padding-bottom: 50px;
     margin: auto;
     width: 90%;
-    font-family: 'basier_square_monoregular';
-    font-size: 1.8rem;
+    font-family: 'basier_circle_monomedium';
+    font-size: 2rem;
     line-height: 40px;
     height: auto;
     color: white;
@@ -127,6 +137,7 @@ body {
 .a-module002 a:link {
     opacity: .5;
 }
+
 .a-module002 a:hover {
     opacity: 1;
 }
