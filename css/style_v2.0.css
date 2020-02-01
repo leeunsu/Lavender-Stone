@@ -204,7 +204,7 @@ p a:hover {
   display: none;
   justify-content: right;
   text-align: right;
-  padding-bottom: 50px;
+  padding: 25px 0 50px 0;
   width: 90%;
   margin: auto;
 }
@@ -380,14 +380,19 @@ p a:hover {
 
 .projectbase {
   position: relative;
-
 }
+
 .projectcasing {
   padding-left: 35%;
   overflow: scroll;
   display: block;
   position: relative;
   overscroll-behavior-x: contain;
+  -ms-overflow-style: none;
+}
+
+.projectcasing::-webkit-scrollbar {
+  display: none;
 }
 
 .projectbase_info {
@@ -401,12 +406,33 @@ p a:hover {
   color: white;
   font-family: 'basier_circle_monomedium';
   font-size: 2rem;
-
 }
 
 .projectbase_info_child {
   padding: 50px;
+}
 
+.projectbase_divider {
+  width: 90%;
+  background-color: white;
+  z-index: 6000;
+  height: 1px;
+  margin: auto;
+}
+
+.scroll {
+  position: absolute;
+  z-index: 5000;
+  color: white;
+  right: 30px;
+  text-align: center;
+  top: 30px;
+  font-family: 'basier_circleregular';
+  font-size: .8rem;
+}
+
+.scroll img {
+  width: 40px;
 }
 
 .projects {
@@ -420,21 +446,15 @@ p a:hover {
   /* flex-flow: row wrap; */
   margin: auto;
   /* justify-content: space-between; */
-
-
-
 }
 
 .p-module001 {
   width: 33.30%;
   padding-bottom: 0px;
-
-     
-
 }
 
 .p-module001 img {
-  width: 100%;   
+  width: 100%;
 }
 
 .p-module001 img:hover {
@@ -637,27 +657,43 @@ p a:hover {
 }
 
 @media only screen and (max-width: 728px) {
-.projectbase {
-  position: relative;
-}
-.projectcasing {
-  padding-left: 0%;
-  overflow: scroll;
-  display: block;
-  position: relative;
-  overscroll-behavior-x: contain;
-}
-
-.projectbase_info {
-  display: none;
-
-}
-
-.projectbase_info_child {
-display:none
-}
-
-
+  .projectbase {
+    position: relative;
+  }
+  .projectbase_mobile {
+    background-color: rgb(20, 20, 20);
+    color: white;
+  }
+  .projectbase_mobile a {
+    color: black;
+  }
+  .tags_mobile {
+    font-family: 'basier_circleregular';
+    font-size: .8rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(20, 20, 20);
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: .8;
+  }
+  .projectcasing {
+    padding-left: 0%;
+    overflow: scroll;
+    display: block;
+    position: relative;
+    overscroll-behavior-x: contain;
+  }
+  .projectbase_info {
+    display: none;
+  }
+  .projectbase_info_child {
+    display: none
+  }
   .projects {
     width: 100%;
     display: flex;
@@ -1016,4 +1052,3 @@ display:none
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s
 }
-
