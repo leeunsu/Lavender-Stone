@@ -815,6 +815,9 @@ p a:hover {
   .tagbar {
     width: 100%;
   }
+  .scroll {
+display: none;
+  }
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 729px) {
@@ -858,6 +861,9 @@ p a:hover {
   .substance_spacer {
     width: 20%;
   }
+  .scroll {
+    display: none;
+      }
 }
 
 @media only screen and (max-width: 2560px) and (min-width: 1600px) {
