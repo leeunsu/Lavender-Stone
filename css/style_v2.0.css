@@ -813,7 +813,7 @@ p a:hover {
     overflow: scroll;
   }
   .tagbar {
-    width: 100%;
+    width: 95%;
   }
   .scroll {
 display: none;
@@ -882,10 +882,10 @@ display: none;
   -ms-flex-wrap: wrap;
   /* IE10 */
   flex-wrap: wrap;
-  padding: 0 4px;
-  width: 90%;
+  width: 100%;
   margin: auto;
   justify-content: space-between;
+  padding-top: 20px;
 }
 
 /* PHOTOGRID */
@@ -893,14 +893,14 @@ display: none;
 /* Create four equal columns that sits next to each other */
 
 .column {
-  -ms-flex: 32.5;
+  -ms-flex: 33.3%;
   /* IE10 */
-  flex: 32.5%;
-  max-width: 32.5%;
+  flex: 33.3%;
+  max-width: 33.3%;
 }
 
 .column img {
-  margin-top: 8px;
+
   vertical-align: middle;
   width: 100%;
 }
