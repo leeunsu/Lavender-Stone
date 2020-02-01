@@ -556,6 +556,11 @@ p a:hover {
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
+  opacity: .8;
+}
+
+.button:hover {
+  opacity: 1;
 }
 
 .buttons {
@@ -629,6 +634,7 @@ p a:hover {
   transition: .5s ease;
   background-color: rgb(20, 20, 20);
   margin: auto;
+
 }
 
 .container:hover .overlay {
@@ -644,7 +650,16 @@ p a:hover {
   padding-left: 10%;
   padding-right: 10%;
   overflow: scroll;
+
+
 }
+
+.overlay a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 .text2 {
   font-family: 'basier_circleregular';
@@ -654,6 +669,25 @@ p a:hover {
   top: 50px;
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.text3 {
+  font-family: 'basier_circleregular';
+  font-size: .8rem;
+  color: white;
+  position: absolute;
+top: 125%;
+left: 10%;
+}
+
+.overlay hr {
+  border: none;
+  height: 1px;
+  /* Set the hr color */
+  color: rgb(255, 255, 255);
+  /* old IE */
+  background-color: rgb(141, 141, 141);
+  /* Modern Browsers */
 }
 
 @media only screen and (max-width: 728px) {
@@ -730,6 +764,7 @@ p a:hover {
     line-height: auto;
     text-align: right;
     hyphens: manual;
+    hyphens: auto;
   }
   .works {
     flex-direction: row;
