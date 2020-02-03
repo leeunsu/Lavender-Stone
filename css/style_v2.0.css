@@ -634,7 +634,6 @@ p a:hover {
   transition: .5s ease;
   background-color: rgb(20, 20, 20);
   margin: auto;
-
 }
 
 .container:hover .overlay {
@@ -650,16 +649,18 @@ p a:hover {
   padding-left: 10%;
   padding-right: 10%;
   overflow: scroll;
+  overscroll-behavior-x: contain;
+  -ms-overflow-style: none;
+}
 
-
+.text::-webkit-scrollbar {
+  display: none;
 }
 
 .overlay a {
   text-decoration: none;
   color: inherit;
 }
-
-
 
 .text2 {
   font-family: 'basier_circleregular';
@@ -676,8 +677,8 @@ p a:hover {
   font-size: .8rem;
   color: white;
   position: absolute;
-top: 125%;
-left: 10%;
+  top: 125%;
+  left: 10%;
 }
 
 .overlay hr {
@@ -851,7 +852,7 @@ left: 10%;
     width: 95%;
   }
   .scroll {
-display: none;
+    display: none;
   }
 }
 
@@ -898,7 +899,7 @@ display: none;
   }
   .scroll {
     display: none;
-      }
+  }
 }
 
 @media only screen and (max-width: 2560px) and (min-width: 1600px) {
@@ -935,7 +936,6 @@ display: none;
 }
 
 .column img {
-
   vertical-align: middle;
   width: 100%;
 }
