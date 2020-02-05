@@ -39,7 +39,11 @@
 
 body {
     background: #1F1948;
-}
+    margin: 0;
+    padding: 0;
+  }
+
+
 
 h1 {
     font-family: 'basier_square_monoregular';
@@ -216,7 +220,15 @@ p a:hover {
 
 /* FOOTER */
 
-.footer {
+.footercasing {
+    width: 100%;
+    background-color:#F0635C;
+    color: white;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .footer {
     padding-top: 50px;
     padding-bottom: 50px;
     bottom: 0px;
@@ -224,12 +236,36 @@ p a:hover {
     width: 90%;
     display: flex;
     flex: 1;
-    font-family: 'basier_square_monoregular';
+    font-family: 'basier_circleregular';
     font-size: .8rem;
+    color: white;
     height: auto;
     line-height: 25px;
-    color: white;
-}
+  }
+  
+  .footer hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: rgb(255, 255, 255);
+    /* old IE */
+    background-color: rgb(255, 255, 255);
+    /* Modern Browsers */
+  }
+  
+  .footer a, .footer a:link, .footer a:visited {
+    text-decoration: none;
+    color: white !important;
+    opacity: .7;
+  }
+  
+  .footer a:hover {
+    opacity: 1;
+  }
+  
+  .footer .active {
+    opacity: 1 !important;
+  }
 
 /* MODULES */
 

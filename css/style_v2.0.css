@@ -96,10 +96,10 @@
 
 
 body {
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
+  animation: fadein 1s;
+  -moz-animation: fadein 1s; /* Firefox */
+  -webkit-animation: fadein 1s; /* Safari and Chrome */
+  -o-animation: fadein 1s; /* Opera */
 }
 @keyframes fadein {
   from {
@@ -464,11 +464,14 @@ p a:hover {
   position: absolute;
   z-index: 5000;
   color: white;
-  right: 30px;
+  right: 28%;
+  padding: 0 20px 0 20px;
+background-color: black;
   text-align: center;
-  top: 30px;
+  bottom: 0px;
   font-family: 'basier_circleregular';
   font-size: .8rem;
+  opacity: .8;
 }
 
 .scroll img {
@@ -1133,3 +1136,7 @@ p a:hover {
   -webkit-animation-delay: 3s, 1.5s;
   animation-delay: 3s, 1.5s
 }
+
+
+
+
