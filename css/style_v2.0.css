@@ -531,12 +531,34 @@ background-color: black;
   padding: 10px 0px 10px 0px;
 }
 
+
+.substance_image_grid {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: auto;
+  justify-content: space-around;
+  padding: 25px 0 25px 0;
+}
+
+
+
+.substance_image_child {
+width: 48%;
+}
+
+.substance_image_child img {
+  width: 100%;
+}
+
+
 .substance_image img {
   width: 100%;
 }
 
 .substance_poster {
-  width: 90%;
+  width: 100%;
   margin: auto;
   padding: 10px 0px 10px 0px;
 }
@@ -891,6 +913,10 @@ background-color: black;
     width: 100%;
     overflow: scroll;
   }
+
+  .substance_image_child {
+    width: 100%;
+    }
   .tagbar {
     width: 95%;
   }
@@ -1138,5 +1164,10 @@ background-color: black;
 }
 
 
+.credit {
+  width: 90%;
+  margin: auto;
+  text-align: right;
+}
 
 
