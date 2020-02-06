@@ -466,6 +466,7 @@ p a:hover {
   position: relative;
   overscroll-behavior-x: contain;
   -ms-overflow-style: none;
+
 }
 
 .projectcasing::-webkit-scrollbar {
@@ -541,6 +542,8 @@ p a:hover {
   margin: auto;
   /* justify-content: space-between; */
 }
+
+
 
 .p-module001 {
   width: 33.30%;
