@@ -238,8 +238,8 @@ p a:hover {
 /* MAIN MODULE (TEXT) */
 
 .m-module001 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin: auto;
   width: 90%;
   font-family: 'basier_circle_monomedium';
@@ -247,6 +247,7 @@ p a:hover {
   line-height: auto;
   height: auto;
   hyphens: auto;
+  text-align: center;
 }
 
 .m-projectdescription {
@@ -1227,3 +1228,9 @@ p a:hover {
   margin: auto;
   text-align: right;
 }
+
+
+
+
+
+
