@@ -344,11 +344,15 @@ p a:hover {
   width: 90%;
   display: flex;
   flex: 1;
-  font-family: 'basier_circleregular';
   font-size: .8rem;
   color: white;
   height: auto;
   line-height: 25px;
+  font-family: 'basier_circleregular';
+}
+
+.footer p {
+  font-family: 'basier_circle_monoregular';
 }
 
 .footer hr {
@@ -362,6 +366,7 @@ p a:hover {
 }
 
 .footer a, .footer a:link, .footer a:visited {
+
   text-decoration: none;
   color: white !important;
   opacity: .5;
