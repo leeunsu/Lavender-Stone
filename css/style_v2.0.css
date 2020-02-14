@@ -366,7 +366,6 @@ p a:hover {
 }
 
 .footer a, .footer a:link, .footer a:visited {
-
   text-decoration: none;
   color: white !important;
   opacity: .5;
@@ -389,6 +388,10 @@ p a:hover {
 .module001 a:nth-child(1) {
   font-family: 'basier_circlesemibold';
   font-size: 1rem;
+}
+
+.module001 a:nth-child(1):hover {
+  text-decoration: line-through;
 }
 
 .module002 {
@@ -416,11 +419,13 @@ p a:hover {
   cursor: pointer;
   text-decoration: none;
   color: rgb(20, 20, 20);
+
 }
 
 .module003 a {
   opacity: .5;
   cursor: pointer;
+  padding-left: 20px;
 }
 
 .module003 a:hover {
@@ -429,6 +434,7 @@ p a:hover {
 
 .module003 .active {
   opacity: 1;
+  text-decoration: line-through;
 }
 
 /* PROJECTS */

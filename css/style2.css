@@ -239,6 +239,10 @@ body {
     color: white;
 }
 
+.module001 a:nth-child(1):hover {
+    text-decoration: line-through;
+}
+
 .module002 {
     text-align: center;
     width: 40%;
@@ -271,6 +275,7 @@ body {
 .module003 a {
     opacity: .5;
     cursor: pointer;
+    padding-left: 20px;
 }
 
 .module003 a:hover {
@@ -279,6 +284,7 @@ body {
 
 .module003 .active {
     opacity: 1;
+    text-decoration: line-through;
 }
 
 /* PROJECTS */
