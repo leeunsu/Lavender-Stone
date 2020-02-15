@@ -308,6 +308,7 @@ p a:hover {
 
 .works a:hover {
   opacity: 1;
+  text-decoration: line-through;
 }
 
 .w-module001 {
@@ -372,11 +373,13 @@ p a:hover {
 }
 
 .footer a:hover {
-  opacity: 1;
+  opacity: 1 !important;
+  text-decoration: line-through !important;
 }
 
 .footer .active {
   opacity: 1 !important;
+  text-decoration: line-through !important;
 }
 
 /* MODULES */
@@ -419,7 +422,6 @@ p a:hover {
   cursor: pointer;
   text-decoration: none;
   color: rgb(20, 20, 20);
-
 }
 
 .module003 a {
@@ -430,6 +432,7 @@ p a:hover {
 
 .module003 a:hover {
   opacity: 1;
+  text-decoration: line-through;
 }
 
 .module003 .active {
@@ -478,7 +481,6 @@ p a:hover {
   position: relative;
   overscroll-behavior-x: contain;
   -ms-overflow-style: none;
-
 }
 
 .projectcasing::-webkit-scrollbar {
@@ -513,10 +515,10 @@ p a:hover {
 .scroll {
   position: absolute;
   z-index: 5000;
-  color: white;
-  right: 28%;
+  color: rgb(20, 20, 20);
+  right: 0%;
   padding: 0 20px 0 20px;
-  background-color: black;
+  background-color: white;
   text-align: center;
   bottom: 0px;
   font-family: 'basier_circleregular';
@@ -527,10 +529,10 @@ p a:hover {
 .scroll2 {
   position: absolute;
   z-index: 5000;
-  color: white;
-  left: 28%;
+  color: rgb(20, 20, 20);
+  left: 0%;
   padding: 0 20px 0 20px;
-  background-color: black;
+  background-color: white;
   text-align: center;
   bottom: 0px;
   font-family: 'basier_circleregular';
@@ -543,7 +545,7 @@ p a:hover {
 }
 
 .projects {
-  width: 300%;
+  width: 280%;
   max-height: 100%;
   display: flex;
   flex-direction: row;
@@ -554,8 +556,6 @@ p a:hover {
   margin: auto;
   /* justify-content: space-between; */
 }
-
-
 
 .p-module001 {
   width: 33.30%;
@@ -850,7 +850,6 @@ p a:hover {
     position: relative;
     overscroll-behavior-x: contain;
   }
-
   .projectcasing2 {
     padding-right: 0%;
     overflow: scroll;
@@ -894,11 +893,9 @@ p a:hover {
   }
   .m-module001 {
     width: 90%;
-    padding-bottom: 25px;
-    padding-top: 25px;
-    font-size: 3rem;
+    font-size: 2.8rem;
     line-height: auto;
-    text-align: right;
+    text-align: left;
     hyphens: manual;
     hyphens: auto;
   }
@@ -989,10 +986,9 @@ p a:hover {
   .tagbar {
     width: 95%;
   }
-  .scroll,.scroll2 {
+  .scroll, .scroll2 {
     display: none;
   }
-
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 729px) {
@@ -1036,7 +1032,7 @@ p a:hover {
   .substance_spacer {
     width: 20%;
   }
-  .scroll,.scroll2 {
+  .scroll, .scroll2 {
     display: none;
   }
 }
@@ -1239,8 +1235,6 @@ p a:hover {
   margin: auto;
   text-align: right;
 }
-
-
 
 
 
