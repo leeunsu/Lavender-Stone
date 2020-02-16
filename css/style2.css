@@ -280,6 +280,7 @@ body {
 
 .module003 a:hover {
     opacity: 1;
+    text-decoration: line-through;
 }
 
 .module003 .active {

@@ -293,6 +293,10 @@ p a:hover {
     background-color: rgb(255, 255, 255);
     /* Modern Browsers */
   }
+
+  .footer p {
+    font-family: 'basier_square_monoregular';
+  }
   
   .footer a, .footer a:link, .footer a:visited {
     text-decoration: none;
@@ -302,7 +306,10 @@ p a:hover {
   
   .footer a:hover {
     opacity: 1;
+    text-decoration: line-through;
   }
+
+  
   
   .footer .active {
     opacity: 1 !important;
@@ -315,11 +322,15 @@ p a:hover {
     color: white;
 }
 
+
+
 .module001 a:nth-child(1) {
     font-family: 'basier_circlesemibold';
     font-size: 1rem;
     color: white;
 }
+
+
 
 .module001 a:nth-child(1):hover {
 text-decoration: line-through;
@@ -364,6 +375,7 @@ text-decoration: line-through;
 
 .module003 a:hover {
     opacity: 1;
+    text-decoration: line-through;
 }
 
 .module003 .active {

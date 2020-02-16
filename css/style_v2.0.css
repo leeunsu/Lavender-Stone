@@ -327,6 +327,14 @@ p a:hover {
   width: 100%;
 }
 
+.w-module002 svg {
+  width: 8px;
+  stroke: black;
+  stroke-width: 150;
+  fill: transparent;
+  padding-left: 5px;
+}
+
 /* FOOTER */
 
 .footercasing {
