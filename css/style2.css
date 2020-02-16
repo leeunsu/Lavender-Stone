@@ -189,6 +189,7 @@ body {
 
 .a-module002 a:hover {
     opacity: 1;
+    text-decoration: line-through;
 }
 
 .a-module002 hr {
