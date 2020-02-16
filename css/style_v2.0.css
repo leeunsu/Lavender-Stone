@@ -860,13 +860,16 @@ p a:hover {
     position: relative;
   }
   .projectbase_mobile {
+
     background-color: rgb(20, 20, 20);
     color: white;
   }
   .projectbase_mobile a {
+
     color: black;
   }
   .tags_mobile {
+
     font-family: 'basier_circleregular';
     font-size: .8rem;
     background-color: rgb(255, 255, 255);
@@ -881,6 +884,7 @@ p a:hover {
     opacity: .8;
   }
   .projectcasing {
+    
     padding-left: 0%;
     overflow: scroll;
     display: block;
@@ -888,6 +892,7 @@ p a:hover {
     overscroll-behavior-x: contain;
   }
   .projectcasing2 {
+    
     padding-right: 0%;
     overflow: scroll;
     display: block;
@@ -898,9 +903,11 @@ p a:hover {
     display: none;
   }
   .projectbase_info_child {
+    
     display: none
   }
   .projects {
+    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -929,26 +936,31 @@ p a:hover {
     line-height: 25px;
   }
   .m-module001 {
-    width: 90%;
-    font-size: 2.8rem;
+    width: 70%;
+    font-size: 2.5rem;
     line-height: auto;
-    text-align: left;
+    text-align: center;
     hyphens: manual;
-    hyphens: auto;
+
+
   }
   .works {
+
     flex-direction: row;
     width: 90%;
   }
   .w-module001 {
+    
     padding-bottom: 25px;
     padding-top: 25px;
   }
   .w-module002 {
+
     padding-bottom: 25px;
     padding-top: 25px;
   }
   .w-module001 {
+
     width: 40%;
   }
   .w-module002 {
@@ -958,6 +970,7 @@ p a:hover {
   .module001 a:nth-child(1) {
     font-family: 'basier_circlesemibold';
     font-size: 1rem;
+
   }
   .navbar2 {
     padding-bottom: 25px;
@@ -970,9 +983,11 @@ p a:hover {
     font-size: .8rem;
     height: auto;
     line-height: 25px;
+
   }
   .works {
     flex-flow: row wrap;
+
   }
   /* FOOTER */
   .footer {
@@ -980,7 +995,8 @@ p a:hover {
     padding-top: 25px;
   }
   .m-projectdescription {
-    display: initial;
+    /* display: initial; */
+    display: none;
   }
   .m-projectmodule {
     display: initial;
