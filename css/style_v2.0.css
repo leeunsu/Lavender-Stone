@@ -454,6 +454,11 @@ p a:hover {
   position: relative;
 }
 
+.projectbase svg {
+  width: 50px;
+  fill: white;
+}
+
 .projectbase_info {
   position: absolute;
   left: 0;
@@ -480,6 +485,13 @@ p a:hover {
   font-family: 'basier_circle_monomedium';
   font-size: 2rem;
   opacity: 1;
+}
+
+.projectbase_info2 p {
+  font-family: 'basier_circleregular';
+  font-weight: 100;
+  font-size: .8rem;
+  text-align: right;
 }
 
 .projectcasing {
@@ -512,6 +524,10 @@ p a:hover {
   padding: 50px;
 }
 
+.projectbase_info_child p {
+  line-height: 1.2rem;
+}
+
 .projectbase_divider {
   width: 90%;
   background-color: white;
@@ -524,28 +540,34 @@ p a:hover {
   position: absolute;
   z-index: 5000;
   color: rgb(20, 20, 20);
+  width: 3%;
   right: 0%;
   padding: 0 20px 0 20px;
-  background-color: white;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(20, 20, 20));
+  /* background-color: black; */
   text-align: center;
   bottom: 0px;
   font-family: 'basier_circleregular';
   font-size: .8rem;
   opacity: .8;
+  height: 100%;
 }
 
 .scroll2 {
   position: absolute;
   z-index: 5000;
   color: rgb(20, 20, 20);
-  left: 0%;
+  width: 3%;
+  right: 33.33%;
   padding: 0 20px 0 20px;
-  background-color: white;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(20, 20, 20));
+  /* background-color: black; */
   text-align: center;
   bottom: 0px;
   font-family: 'basier_circleregular';
   font-size: .8rem;
   opacity: .8;
+  height: 100%;
 }
 
 .scroll img {
@@ -553,7 +575,7 @@ p a:hover {
 }
 
 .projects {
-  width: 280%;
+  width: 350%;
   max-height: 100%;
   display: flex;
   flex-direction: row;
@@ -563,7 +585,9 @@ p a:hover {
   /* flex-flow: row wrap; */
   margin: auto;
   /* justify-content: space-between; */
+  background-color: rgb(20, 20, 20);
 }
+
 
 .p-module001 {
   width: 33.30%;
@@ -825,6 +849,10 @@ p a:hover {
   background-color: rgb(141, 141, 141);
   /* Modern Browsers */
 }
+.bookend {
+  width: 33.33%;
+}
+
 
 @media only screen and (max-width: 728px) {
   .projectbase {
@@ -1041,7 +1069,14 @@ p a:hover {
     width: 20%;
   }
   .scroll, .scroll2 {
-    display: none;
+    display: initial;
+  }
+  .bookend {
+    width: 100%;
+  }
+
+  .projectbase_info_child {
+    padding: 35px;
   }
 }
 
@@ -1083,6 +1118,9 @@ p a:hover {
   vertical-align: middle;
   width: 100%;
 }
+
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 
@@ -1243,6 +1281,8 @@ p a:hover {
   margin: auto;
   text-align: right;
 }
+
+
 
 
 
