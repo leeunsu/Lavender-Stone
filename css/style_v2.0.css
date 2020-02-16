@@ -470,7 +470,8 @@ p a:hover {
   color: white;
   font-family: 'basier_circle_monomedium';
   font-size: 2rem;
-  opacity: 1;
+  opacity: .98;
+  
 }
 
 .projectbase_info2 {
@@ -484,7 +485,7 @@ p a:hover {
   color: white;
   font-family: 'basier_circle_monomedium';
   font-size: 2rem;
-  opacity: 1;
+  opacity: .98;
 }
 
 .projectbase_info2 p {
