@@ -627,7 +627,7 @@ p a:hover {
 .substance_image {
   width: 100%;
   margin: auto;
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .substance_image_grid {
@@ -637,7 +637,7 @@ p a:hover {
   width: 100%;
   margin: auto;
   justify-content: space-around;
-  padding: 25px 0 25px 0;
+  padding: 0px 0 0px 0;
 }
 
 .substance_image_child {
@@ -655,7 +655,7 @@ p a:hover {
 .substance_poster {
   width: 100%;
   margin: auto;
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .substance_poster img {
@@ -687,7 +687,7 @@ p a:hover {
   display: none;
   width: 100%;
   overflow: scroll;
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .substance_mobileposter img {
@@ -947,18 +947,22 @@ p a:hover {
   }
   .works {
 
+      padding-top: 25px;
+      padding-bottom: 25px;
     flex-direction: row;
     width: 90%;
+
   }
   .w-module001 {
-    
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+
   }
   .w-module002 {
 
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+
   }
   .w-module001 {
 
