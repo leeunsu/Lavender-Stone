@@ -471,7 +471,6 @@ p a:hover {
   font-family: 'basier_circle_monomedium';
   font-size: 2rem;
   opacity: .98;
-  
 }
 
 .projectbase_info2 {
@@ -588,7 +587,6 @@ p a:hover {
   /* justify-content: space-between; */
   background-color: rgb(20, 20, 20);
 }
-
 
 .p-module001 {
   width: 33.30%;
@@ -850,26 +848,23 @@ p a:hover {
   background-color: rgb(141, 141, 141);
   /* Modern Browsers */
 }
+
 .bookend {
   width: 33.33%;
 }
-
 
 @media only screen and (max-width: 728px) {
   .projectbase {
     position: relative;
   }
   .projectbase_mobile {
-
     background-color: rgb(20, 20, 20);
     color: white;
   }
   .projectbase_mobile a {
-
     color: black;
   }
   .tags_mobile {
-
     font-family: 'basier_circleregular';
     font-size: .8rem;
     background-color: rgb(255, 255, 255);
@@ -884,7 +879,6 @@ p a:hover {
     opacity: .8;
   }
   .projectcasing {
-    
     padding-left: 0%;
     overflow: scroll;
     display: block;
@@ -892,7 +886,6 @@ p a:hover {
     overscroll-behavior-x: contain;
   }
   .projectcasing2 {
-    
     padding-right: 0%;
     overflow: scroll;
     display: block;
@@ -903,11 +896,9 @@ p a:hover {
     display: none;
   }
   .projectbase_info_child {
-    
     display: none
   }
   .projects {
-    
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -942,30 +933,22 @@ p a:hover {
     text-align: left;
     hyphens: manual;
     hyphens: auto;
-
-
   }
   .works {
-
-      padding-top: 25px;
-      padding-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     flex-direction: row;
     width: 90%;
-
   }
   .w-module001 {
     padding-bottom: 50px;
     padding-top: 0px;
-
   }
   .w-module002 {
-
     padding-bottom: 50px;
     padding-top: 0px;
-
   }
   .w-module001 {
-
     width: 40%;
   }
   .w-module002 {
@@ -975,7 +958,6 @@ p a:hover {
   .module001 a:nth-child(1) {
     font-family: 'basier_circlesemibold';
     font-size: 1rem;
-
   }
   .navbar2 {
     padding-bottom: 25px;
@@ -988,11 +970,9 @@ p a:hover {
     font-size: .8rem;
     height: auto;
     line-height: 25px;
-
   }
   .works {
     flex-flow: row wrap;
-
   }
   /* FOOTER */
   .footer {
@@ -1096,7 +1076,6 @@ p a:hover {
   .bookend {
     width: 100%;
   }
-
   .projectbase_info_child {
     padding: 35px;
   }
@@ -1140,9 +1119,6 @@ p a:hover {
   vertical-align: middle;
   width: 100%;
 }
-
-
-
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 
@@ -1309,3 +1285,91 @@ p a:hover {
 
 
 
+
+
+.overlay2 {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 5001;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+
+}
+
+.overlay2 a {
+  padding: 8px;
+  text-decoration: none;
+
+
+  display: block;
+  transition: 0.3s;
+  font-family: 'basier_circle_monomedium';
+  font-size: 1.5rem;
+}
+
+.overlay2 a:hover, .overlay a:focus {
+
+}
+
+.overlay2 .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #f1f1f1;
+}
+
+@media only screen and (max-width: 728px) {
+  .overlay2 a {font-size: 20px}
+  .overlay2 .closebtn {
+
+  top:0px;
+  right: 18px;
+  }
+}
+
+
+
+.overlay_tagbar {
+
+  overflow: scroll;
+  margin: auto;
+  width: auto;
+  display: inline-block;
+
+  height: auto;
+
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+
+.overlay_tags {
+  font-family: 'basier_circleregular';
+  font-size: .8rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(20, 20, 20);
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.overlay_tags:hover {
+  opacity: 1;
+}
