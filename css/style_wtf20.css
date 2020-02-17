@@ -987,8 +987,8 @@ text-decoration: line-through;
     z-index: 5001;
     top: 0;
     left: 0;
-    background-color: rgb(20, 20, 20);
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color:   #F0635C;
+    background-color: rgba(240 , 99, 92, 0.9);
   
   }
   
@@ -1040,9 +1040,9 @@ text-decoration: line-through;
   .overlay_tags {
     font-family: 'basier_circleregular';
     font-size: .8rem;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border: none;
-    color: rgb(20, 20, 20);
+    color:     #F0635C;
   
     text-align: center;
     text-decoration: none;
@@ -1095,8 +1095,8 @@ text-decoration: line-through;
       position: relative;
     
       text-align: center;
-      left: 40%;
-      top: 45%;
+      left: 50%;
+      top: 50%;
       transform: translate(-50%, -50%);
       width: 50%;
     

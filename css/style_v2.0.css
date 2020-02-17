@@ -247,7 +247,7 @@ p a:hover {
   line-height: auto;
   height: auto;
   hyphens: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .m-projectdescription {
@@ -1396,8 +1396,8 @@ p a:hover {
     position: relative;
   
     text-align: center;
-    left: 40%;
-    top: 45%;
+    left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
   
@@ -1410,3 +1410,6 @@ p a:hover {
     font-size: 2.5rem;
   }
 }
+
+
+
