@@ -103,11 +103,11 @@ body {
 
 
 h1 {
-    font-family: 'basier_square_monoregular';
-    font-size: 1.5rem;
-    font-weight: normal;
-    line-height: 30px;
-    color: white;
+  font-family: 'basier_circle_monomedium';
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 30px;
+  color: white;
 }
 
 h2 {
@@ -437,7 +437,7 @@ text-decoration: line-through;
     flex-direction: row;
     flex-flow: row wrap;
     flex: 1;
-    font-family: 'basier_square_monoregular';
+    font-family: 'basier_circle_monomedium' !important;
     font-size: .8rem;
     height: auto;
     line-height: 1.5rem;
